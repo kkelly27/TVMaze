@@ -134,7 +134,7 @@ async function getEpisodesOfShow(id) {
 // function populateEpisodes(episodes) { }
 function populateEpisodes(episodes) {
   $episodesList.show();
-  populateEpisodes(episodes);
+  /*populateEpisodes(episodes);*/
 
   for (let episode of episodes) {
     const $item = $(
